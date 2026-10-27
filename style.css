@@ -1,0 +1,20 @@
+h1 {
+    color: red;
+}
+/* we're syaing variable h1 tag is being used in teh html file, and applying color red to all h1 tags.  Color is a (CSS) property. Red is the value of a property tag selecdtor and name selector is the same thing -- aka, wherever tag is being used, apply it, but it's not used widely as usually ver specific of what you want to do*/
+/* classes are reusable, ids are not.  # means id in CSS ie. footer can be applied once in .  can have a card that identified... show items vs. visuals vs. image... mulitple cases, same style, but won't same work same */
+/* class give specific style, but then there's a specific edge case within or outside that card.  you don't need a new class defined for that one case. can apply mutliple classes to same elements */
+
+#footer {
+    color: orange;
+    font-size: 24px;
+}
+
+/* "#" indicates id selectors. "." indicate class selectors */
+
+.card {
+    color: blue;
+    font-size: 24px;
+}
+
+
